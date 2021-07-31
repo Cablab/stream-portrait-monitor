@@ -1,0 +1,32 @@
+{
+  "name": "stream-portrait-monitor",
+  "version": "1.0.0",
+  "description": "Shows or hides OBS Image sources when a Discord user is speaking or not speaking in a voice channel",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cablab/stream-portrait-monitor.git"
+  },
+  "keywords": [
+    "stream",
+    "OBS",
+    "discord",
+    "bot",
+    "ffxiv"
+  ],
+  "author": "Caleb Young (Cablab)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Cablab/stream-portrait-monitor/issues"
+  },
+  "homepage": "https://github.com/Cablab/stream-portrait-monitor#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "obs-websocket-js": "^4.0.2",
+    "stream": "0.0.2"
+  }
+}
