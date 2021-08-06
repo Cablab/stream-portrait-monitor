@@ -96,7 +96,7 @@ function detectSpeaker(voiceConnection) {
     voiceConnection.on('speaking', async (user, speaking) => {
         if (user.bot) { return; }
 
-        console.log(user.username + ' is speaking: ' + speaking);
+        // console.log(user.username + ' is speaking: ' + speaking);
 
         let visible = speaking.bitfield == 0 ? false : true;
         obs.setStaticMemberVisibility(user.username, visible);
